@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "335559533099",
+    "firebase_url": "https://urlfetch-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "urlfetch",
+    "storage_bucket": "urlfetch.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:335559533099:android:74aef3c923ed31cb5d006e",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "335559533099-mm0gojjmqphdl06sqdvo58fm5itha77c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCB2NjjrPuhrNTwWyfd_yD2110Asr6dFWs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "335559533099-mm0gojjmqphdl06sqdvo58fm5itha77c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:335559533099:android:27cfc0821a1c963c5d006e",
+        "android_client_info": {
+          "package_name": "com.free2air.news.sameer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "335559533099-mm0gojjmqphdl06sqdvo58fm5itha77c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCB2NjjrPuhrNTwWyfd_yD2110Asr6dFWs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "335559533099-mm0gojjmqphdl06sqdvo58fm5itha77c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
