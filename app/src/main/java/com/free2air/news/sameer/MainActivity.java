@@ -1,14 +1,20 @@
 package com.free2air.news.sameer;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
+import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 import com.google.firebase.database.DataSnapshot;
@@ -163,10 +169,34 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+
+        getMenuInflater().inflate(R.menu.menu_item,menu);
+        return true;
+    }
 
 
+    public void showabout(MenuItem item) {
+        AlertDialog.Builder myDialog = new AlertDialog.Builder(this);
+        LayoutInflater inflater = LayoutInflater.from(this);
+        View mView= inflater.inflate(R.layout.about,null);
+        myDialog.setView(mView);
+        final AlertDialog dialog = myDialog.create();
+        dialog.show();
+        final Button cancel = mView.findViewById(R.id.cancel);
+        cancel.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                dialog.dismiss();
 
+            }
+        });
 
+    }
 
-
+    public void submitbug(MenuItem item) {
+        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/_interstellar07_/"));
+        startActivity(i);
+    }
 }

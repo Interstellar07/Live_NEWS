@@ -4,10 +4,12 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/LiveFreeNews/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.22592592592592592" />
-        <entry key="..\:/LiveFreeNews/app/src/main/res/drawable/ic_launcher_background.xml" value="0.22592592592592592" />
+        <entry key="..\:/LiveFreeNews/app/src/main/res/drawable/ic_launcher_background.xml" value="0.13333333333333333" />
         <entry key="..\:/LiveFreeNews/app/src/main/res/layout-land/activity_newspanel.xml" value="0.16666666666666666" />
+        <entry key="..\:/LiveFreeNews/app/src/main/res/layout/about.xml" value="0.2269021739130435" />
         <entry key="..\:/LiveFreeNews/app/src/main/res/layout/activity_main.xml" value="0.24682971014492755" />
         <entry key="..\:/LiveFreeNews/app/src/main/res/layout/activity_newspanel.xml" value="0.14666666666666667" />
+        <entry key="..\:/LiveFreeNews/app/src/main/res/menu/menu_item.xml" value="0.2994791666666667" />
       </map>
     </option>
   </component>
